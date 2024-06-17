@@ -1,62 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <title>Games</title>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <title>Parallax Games - Loja virtual de jogos</title>
+
+    <!-- Css Bootstrap ARQUIVOS -->
+    <link rel="stylesheet" href="../bootstrap/styles/bootstrap.css">
+    <!-- Bootstrap Icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Css do Art  -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <header class="header">
-        <a href="index.html" class="logo">Games</a>
 
-        <ul class="navbar">
-            <li class="navbar_item"><a class="navbar_item_link" href="#loja">Loja</a></li>
-            <li class="navbar_item"><a class="navbar_item_link" href="#comunidade">Comunidade</a></li>
-            <li class="navbar_item"><a class="navbar_item_link" href="sobre">Sobre</a></li>
-            <li class="navbar_item"><a class="navbar_item_link" href="suporte">Suporte</a></li>
-        </ul>
-    </header>
-
-    <main class="main">
-        <section id="loja">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-
-        <article id="comunidade">
-            <div>
-
+<body id="body">
+    <!-- HEADER -->
+    <div class="container-fluid">
+        <header id="header" id="home" class="row">
+            <div id="logo-container">
+                <img src="images/logo.svg" alt="logo" id="logo">
+                <p>Parallax</p>
             </div>
-        </article>
+            <p>Vivemos o Game!</p>
+        </header>
 
-        <article id="sobre">
-            <div>
-
+        <nav id="navbar" class="container">
+            <div class="row justify-content-center">
+                <a href="#home">Home</a>
+                <a href="#jogos">Jogos</a>
+                <a href="#contato">Contato</a>
             </div>
-        </article>
+        </nav>
+    </div>
+    <!-- MAIN IMAGE -->
 
-        <article id="suporte">
-            <div>
-
+    <div class="container" id="main-image-container">
+        <div class="main-image center-image">
+            <div class="main-image-info">
+                <h2>Parallax Games</h2>
+                <p class="secondary-color">O lado virtual da diversão! 🤪</p>
+                <a href="#jogos" class="btn-main-image">Jogos</a>
             </div>
-        </article>
-    </main>
-
-    <footer class="footer">
-        <p class="footer_direitos">© 2024 Games Corporation</p>
-
-        <div class="informations">
-            <p><a href="#loja">Loja</a></p>
-            <p><a href="#comunidade">Comunidade</a></p>
-            <p><a href="#sobre">Sobre</a></p>
-            <p><a href="#loja">Suporte</a></p>
         </div>
+    </div>
+
+    <!-- GALLERY -->
+    <!-- GALLERY -->
+    <div id="jogos" class="container" id="gallery-container">
+        <div class="col-12">
+        <h1 style="text-align: center; margin-bottom: 25px;">Mais jogados</h1>
+        </div>
+        <div class="row gx-md-5">
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img2"></div>
+                <h3>Buble Kid</h3>
+                <p class="secondary-color">Buble Kid é um jogo divertido e interativo para crianças que amam aventuras!</p>
+                <a class="btn" href="games/bublekid/index.html" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img3"></div>
+                <h3>Bomb Sword</h3>
+                <p class="secondary-color">Carregando</p>
+                <a class="btn" href="games/bombsword//index.html" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img4"></div>
+                <h3>Bamboo Strike</h3>
+                <p class="secondary-color">Carregando8</p>
+                <a class="btn" href="#" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img5"></div>
+                <h3>Carregando</h3>
+                <p class="secondary-color">Carregando</p>
+                <a class="btn" href="#" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img6"></div>
+                <h3>Carregando</h3>
+                <p class="secondary-color">Carregando</p>
+                <a class="btn" href="#" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img7"></div>
+                <h3>Carregando</h3>
+                <p class="secondary-color">Carregando</p>
+                <a class="btn" href="#" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img8"></div>
+                <h3>Carregando</h3>
+                <p class="secondary-color">Carregando</p>
+                <a class="btn" href="#" target="_blank">Jogar agora</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img8"></div>
+                <h3>Carregando</h3>
+                <p class="secondary-color">Carregando</p>
+                <a class="btn" href="#" target="_blank">Jogar agora</a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contato" class="container-fluid">
+        <p class="secondary-color">Nos encontre nas redes sociais</p>
+        <div class="row justify-content-center" id="social-icons-container">
+            <div class="col-1">
+                <a href="https://github.com/gabrieldebarross" target="_blank"><i class="bi bi-github secondary-color"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="https://www.instagram.com/gabrielsorrab/" target="_blank"><i class="bi bi-instagram secondary-color"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="https://www.linkedin.com/in/gabrieldebarros/" target="_blank"><i class="bi bi-linkedin secondary-color"></i></a>
+            </div>
+        </div>
+        <p class="secondary-color">Parallax Games &copy; 2024</p>
     </footer>
 </body>
+
 </html>

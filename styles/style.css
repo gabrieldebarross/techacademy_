@@ -1,65 +1,226 @@
+:root {
+  --principalcolor: #25282E;
+  --secondarycolor: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 * {
-  padding: 0;
-  margin: 0;
+  color: var(--principalcolor);
 }
 
-body {
-  background-color: #0b1835;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.logo {
-  font-size: 1.5rem;
-  color: white;
+a, i {
+  transition: .5s;
   text-decoration: none;
-  padding: 20px;
 }
 
-.header {
-  background-color: #000018;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.secondarycolor {
+  color: var(--secondarycolor);
 }
 
-.navbar {
-  display: flex;
-  gap: 4px;
-  list-style-type: none;
+.center-image {
+  background-size: cover;
+  background-position: center;
 }
-.navbar a {
-  color: white;
+
+.btn {
   text-decoration: none;
-  padding: 10px;
+  background-color: var(--principalcolor);
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
-@media screen and (max-width: 380px) {
-  .navbar {
-    display: none;
-  }
+.btn-main-image {
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: var(--principalcolor);
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 5px;
 }
-.footer {
-  background-color: #050c26;
-  padding: 5px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+
+.btn-main-image:hover {
+  background-color: #393939;
+  color: #fff;
 }
-.footer .footer_direitos {
-  color: white;
-  font-size: 1rem;
+
+.btn:hover {
+  background-color: #393939;
+  color: #fff;
+}
+
+/* HEADER */
+#header {
+  border-bottom: 1px solid var(--principalcolor);
   text-align: center;
+  padding: 20px;
+  background-color: black;
 }
-.footer .informations {
-  font-size: .8rem;
+
+#header p {
+  margin-bottom: 0;
+  color: white;
+}
+
+#logo-container {
   display: flex;
-  gap: 15px;
   justify-content: center;
 }
-.footer .informations a {
+
+#logo-container p {
+  font-size: 30px;
+}
+
+#logo {
+  width: 45px;
+  margin-right: 2px;
+}
+
+/* NAVBAR */
+#navbar {
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#navbar a {
+  width: 80px;
+  color: #000000;
+  font-size: 1rem;
+}
+
+#navbar a:hover {
+  color: #292929;
+}
+
+/* MAIN IMAGE */
+.main-image {
+  height: 500px;
+  background-image: url(../images/site/background.svg);
+  margin-bottom: 30px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.main-image-info {
+  background-color: #fff;
+  padding: 25px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  border-radius: 10px;
+}
+
+/* GALLERY */
+#jogos .small-image-container {
+  margin-bottom: 10px;
+}
+
+#img2 {
+  background-image: url(../images/bublekid/bublekid.svg);
+  background-position: top;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+#img3 {
+  background-image: url(../images/bombsword/banner.jfif);
+  border-radius: 5px;
+  background-position: top;
+  background-size: cover;
+}
+
+#img4 {
+  background-image: url(../images/bamboostrike/banner.jfif);
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#img5 {
+  background-image: url(../images/site/loading.svg);
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#img6 {
+  background-image: url(../images/site/loading.svg);
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#img7 {
+  background-image: url(../images/site/loading.svg);
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#img8 {
+  background-image: url(../images/site/loading.svg);
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#img9 {
+  background-image: url(../images/site/loading.svg);
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#gallery-container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#gallery-container .col-12, #gallery-container .col-md-6 {
+  margin-bottom: 50px;
+}
+
+.small-image-container {
+  height: 350px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 10px #787878;
+}
+
+/* FOOTER  */
+footer {
+  border-top: 1px solid #ccc;
+  background-color: black;
+}
+footer p {
   color: white;
-  text-decoration: none;
+  margin: 0;
+  padding: 15px;
+}
+
+footer i {
+  font-size: 20px;
+  color: white;
+}
+
+#social-icons-container {
+  color: white;
+}
+
+#social-icons-container div {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+a:hover i {
+  color: #C1B696;
+}
+
+@media (max-width: 510px) {
+  .main-image {
+    background-image: url(../images/site/min510px.svg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
