@@ -19,6 +19,19 @@
 
 <h3>Pontos a serem melhorados</h3>
 
+
+<h4>Site</h4>
+
+<ul>
+<li>Responsividade</li>
+<li>Paleta de Cores</li>
+<li>Layout</li>
+<li>Novas Páginas</li>
+<li>Animações</li>
+</ul>
+
+<h4>Jogo</h4>
+
 <ul>
 <li>Nível de dificuldade.</li>
 <li>Novas fases.</li>
@@ -26,5 +39,4 @@
 <li>Correção de bugs.</li>
 <li>Criação de inimigos.</li>
 <li>Novas animações.</li>
-
 </ul>

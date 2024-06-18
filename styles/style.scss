@@ -8,6 +8,60 @@
     color: var(--principalcolor);
 }
 
+.usuario {
+    position: fixed;;
+    height: 45px;
+    width: 18rem;
+    right: 0rem;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.usuario {
+    p {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        height: 100%;
+        text-align: center;
+        margin-top: 15px;
+
+        font-size: 1.1rem;
+    }
+
+}
+
+#usuario {
+    color: rgb(237, 233, 3);
+}
+
+.menulateral {
+    background-color: rgb(0, 46, 68);
+    border-radius: 3px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    gap: 5px;
+    width: 18rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.menulateral a {
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:  .9rem;
+}
+
+.menulateral a:hover {
+    color: rgb(211, 211, 211);
+}
+
+#usuarioid {
+    color: rgb(237, 233, 3);
+}
+
 a, i {
     transition: .5s;
     text-decoration: none;
@@ -152,27 +206,27 @@ a, i {
     background-size: cover;
 }
 #img6 {
-    background-image: url(../images/site/loading.svg);
+    background-image: url(../images/speedbird/banner.jfif);
     border-radius: 5px;
     background-size: cover;
+    background-position: center;
 }
 
 #img7 {
-    background-image: url(../images/site/loading.svg);
+    background-image: url(../images/battledield1/banner.jpg);
     border-radius: 5px;
     background-size: cover;
 }
 
 #img8 {
-    background-image: url(../images/site/loading.svg);
+    background-image: url(../images/fortnite/banner.jpg);
     border-radius: 5px;
     background-size: cover;
 }
 
 #img9 {
-    background-image: url(../images/site/loading.svg);
+    background-image: url(../images/gtav/banner.jpg);
     border-radius: 5px;
-    background-size: cover;
 }
 
 #gallery-container h1 {
@@ -230,5 +284,19 @@ a:hover i {
 @media (max-width: 510px) {
     .main-image {
         background-image: url(../images/site/min510px.svg);
+    }
+
+    #img4 {
+        background-position: right;
+    }
+}
+
+@media (max-width: 1300px) {
+    .usuario {
+        display: none;
+    }
+
+    .menulateral {
+        display: none;
     }
 }
