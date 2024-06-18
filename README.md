@@ -14,6 +14,7 @@
 <li>HTML.</li>
 <li>Scss.</li>
 <li>JavaScript.</li>
+<li>Bootstrap5 + Icons</li>
 </ul>
 
 
