@@ -1,10 +1,9 @@
 <h1>O site é composto por quatro seções:<h1>
 
 <ul>
-<li>Loja.</li>
-<li>Comunidade.</li>
-<li>Sobre.</li>
-<li>Suporte.</li>
+<li>Home.</li>
+<li>Jogos.</li>
+<li>Contato</li>
 </ul>
 
 <h2>Tecnologias utilizadas:</h2>
