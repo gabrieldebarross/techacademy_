@@ -1,8 +1,8 @@
 <h1>O site é composto por quatro seções:<h1>
 
 <ul>
-<li>Home.</li>
-<li>Jogos.</li>
+<li>Home</li>
+<li>Jogos</li>
 <li>Contato</li>
 </ul>
 
@@ -10,9 +10,9 @@
 <h3>Para o desenvolvimento deste site utilizei as seguintes tecnologias:</h3>
 
 <ul>
-<li>HTML.</li>
-<li>Scss.</li>
-<li>JavaScript.</li>
+<li>HTML</li>
+<li>Scss</li>
+<li>JavaScript</li>
 <li>Bootstrap5 + Icons</li>
 </ul>
 
