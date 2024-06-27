@@ -1,9 +1,9 @@
 // Parte do nome do Usuário
 
-const usuario = prompt('Digite seu nome:');
-const texto = window.document.getElementById('usuario');
+// const usuario = prompt('Digite seu nome:');
+// const texto = window.document.getElementById('usuario');
 
-texto.innerHTML = usuario;
+// texto.innerHTML = usuario;
 
 // Parte do Id do Usuário
 
